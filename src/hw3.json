@@ -1,0 +1,26 @@
+{
+    "header": "Weight Conversion",
+    "value": "1",
+    "selectors": [
+      {
+        "readonly": false,
+        "weightScales": ["Pounds", "Kilograms", "Grams", "Ounces"],
+        "currentWeightScaleIndex": 2
+      },
+      {
+        "readonly": true,
+        "weightScales": ["Grams", "Ounces"],
+        "currentWeightScaleIndex": 0
+      },
+      {
+        "readonly": false,
+        "weightScales": ["Pounds", "Kilograms"],
+        "currentWeightScaleIndex": 1
+      },
+      {
+        "readonly": true,
+        "weightScales": ["Pounds", "Kilograms"],
+        "currentWeightScaleIndex": 0
+      }
+    ]
+  }
